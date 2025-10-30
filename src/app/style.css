@@ -1,0 +1,44 @@
+/* ============================= */
+/* Radio Button Input Selector   */
+/* ============================= */
+div.row-widget.stRadio > div {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+div.row-widget.stRadio label {
+    background: linear-gradient(145deg, #1b1f2a, #12151c);
+    color: #c5c6c7;
+    padding: 18px 30px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 0px 15px rgba(102, 252, 241, 0.1);
+}
+
+div.row-widget.stRadio label:hover {
+    border-color: #45a29e;
+    box-shadow: 0px 0px 25px rgba(102, 252, 241, 0.25);
+    transform: translateY(-3px);
+}
+
+div.row-widget.stRadio input:checked + div label {
+    background: linear-gradient(90deg, #45a29e, #66fcf1);
+    color: #0e1117 !important;
+    font-weight: bold;
+    border-color: #66fcf1;
+    box-shadow: 0px 0px 25px rgba(102, 252, 241, 0.4);
+}
+
+h2 {
+    text-align: center;
+    font-size: 28px !important;
+    color: #66fcf1;
+    font-weight: 700;
+}

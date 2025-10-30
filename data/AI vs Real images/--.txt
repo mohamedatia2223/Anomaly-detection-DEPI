@@ -1,0 +1,3 @@
+https://www.kaggle.com/datasets/cashbowman/ai-generated-images-vs-real-images/data
+
+https://www.kaggle.com/datasets/alessandrasala79/ai-vs-human-generated-dataset
