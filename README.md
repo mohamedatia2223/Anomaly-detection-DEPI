@@ -141,7 +141,7 @@ streamlit run src/app/app.py
 
 Once launched, the interface allows you to:
 
-* 🌐 Enter a website URL for text and image anomaly detection
+* 🌐 Enter a website URL for text, image and packets anomaly detection
 * 📝 Paste text directly into the input box
 * 🖼️ Upload an image file
 * 📡 Upload a packet CSV file
@@ -153,8 +153,8 @@ Once launched, the interface allows you to:
 | Modality            | Model              | Framework              | Task                        |
 | ------------------- | ------------------ | ---------------------- | --------------------------- |
 | **Network Packets** | Sparse Autoencoder | TensorFlow/Keras       | Detect network anomalies    |
-| **Text**            | BERT               | PyTorch + Transformers | Detect linguistic anomalies |
-| **Image**           | ConvNeXt Base      | PyTorch                | Detect visual anomalies     |
+| **Text**            | BERT               | PyTorch                | Detect linguistic anomalies |
+| **Image**           | Bert + OneClassSVM | PyTorch                | Detect visual anomalies     |
 
 ---
 
