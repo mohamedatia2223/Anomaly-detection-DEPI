@@ -96,9 +96,7 @@ Multimodal-AI-Anomaly-Detector/
             human_vs_ai_text_detection.py
             sparse_autoencoder.py
 
-
----
-
+```
 ## Installation
 
 ### 1️⃣ Clone the Repository
