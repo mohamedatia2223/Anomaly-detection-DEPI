@@ -155,7 +155,7 @@ Once launched, the interface allows you to:
 | **Network Packets** | Sparse Autoencoder | TensorFlow/Keras       | Detect network anomalies    |
 | **Text**            | Bert + OneClassSVM | PyTorch                | Detect linguistic anomalies |
 | **Image**           | ConvNeXt           | PyTorch                | Detect visual anomalies     |
-ConvNeXt
+
 ---
 
 ## 🎨 User Interface
